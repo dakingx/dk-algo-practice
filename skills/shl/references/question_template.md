@@ -18,16 +18,12 @@
 
 **Input:**
 
-```
 <!-- Sample input -->
-```
 
 **Output:**
 
-```
 <!-- Expected output -->
-```
 
-## Explanation
+**Explanation:**
 
-<!-- Explain why the example produces that output -->
+<!-- Optional, explain why the example produces that output -->

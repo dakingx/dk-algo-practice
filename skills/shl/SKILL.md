@@ -15,22 +15,15 @@ Follow these steps in order. Do not skip steps.
 
 ### Step 1: Understand the Problem
 
-Read the problem from user's message, and it always follows this structure:
+1. **Understand the user's requirements and the problem.** Read the provided problem statement, relevant attachments, and `references/question_template.md`. Identify the intended task,input/output behavior, constraints, and examples where provided. At any point during understanding or conversion, ask the user to clarify uncertainties, missing details that affect the solution, or conflicting information before proceeding with the affected work. Do not invent requirements or silently make assumptions.
 
-- **Question**: The problem description
-- **Input**: Input format and parameters
-- **Output**: Expected output format
-- **Constraints**: Time/space limits, value ranges
-- **Example**: Sample input/output pairs
-- **Explanation**: Why the example produces that output
+2. **Convert to the question template when needed.** Organizethe understood content using the structure in `references/question_template.md`, preserving the original meaning. All template sections and subsections are recommended, not mandatory; do not fabricate content just to fill them. Identifyany omitted sections or details for the user to confirm. If the provided content already follows the template structure, skip conversion, but not the final confirmation below.
 
-Note that not all of the above chapters are available; some chapters are optional, such as the Explanation section.
-
-Clarify any ambiguity with the user before writing code.
+3. **0btain explicit confirmation of the final question.** Present the complete final question to the user, whether converted or already formatted. Ask the user to confirm both the question content and any omitted template sections or details. If the user requests changes, clarify any new uncertainties revise the question, and present it again for confirmation. Do not proceed to Step 2 or write solution code until all uncertainties are resolved and the user explicitly confirms the final question, including any omissions.
 
 ### Step 2: Write the Solution
 
-Write the solution following the template in `assets/code_template.md` (load it before writing).
+Write the solution following the template in `assets/code_template.md` (load it before writing).s
 
 <python_version>3.7</python_version>
 
