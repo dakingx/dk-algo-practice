@@ -1,11 +1,11 @@
 # Question
-An agent sends a secret message toheadquarters containing the details of hisproject. He sends one soft copy to theagency's computer (P) and sends onehard copy by fax to Roger, the technicahead of the agency (Q). But during thetransmission, noise in the network causessome bits of the data message P to getdistorted. However, we know that Rogeralways matches the binary values of bothmessages and checks whether he canconvert the message P to message Q byflipping the minimum number of bits.
+An agent sends a secret message to head quarters containing the details of hisproject. He sends one soft copy to the agency's computer (P) and sends one hard copy by fax to Roger, the technical head of the agency (Q). But during the transmission, noise in the network causes some bits of the data message P to get distorted. However, we know that Roger always matches the binary values of both messages and checks whether he can convert the message P to message Q by flipping the minimum number of bits.
 
-Write an algorithm to help Roger find theminimum number of bits that must beflipped to convert message P to message Q.
+Write an algorithm to help Roger find the minimum number of bits that must be flipped to convert message P to message Q.
 
 # Input
-The first line of the input consists of aninteger num1, representing the secretmessage sent to the agency's computer(P)
-The second line consists of aninteger num2, representing the messagesent to the technical head of the agency(Q).
+The first line of the input consists of an integer num1, representing the secret message sent to the agency's computer(P)
+The second line consists of an integer num2, representing the message sent to the technical head of the agency(Q).
 
 # Output
 Print an integer representing the minimum number of bits that must be flipped to convert message P to message Q.
